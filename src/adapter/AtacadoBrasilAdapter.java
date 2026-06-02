@@ -1,4 +1,15 @@
 package adapter;
 
-public interface AtacadoBrasilAdapter {
+import domain.Produto;
+import repository.CatalogoProdutos;
+
+import java.util.List;
+
+public class AtacadoBrasilAdapter implements CatalogoProdutos {
+
+    @Override
+    public List<Produto> listarProdutos() {
+        return List.of();
+    }
+
 }
