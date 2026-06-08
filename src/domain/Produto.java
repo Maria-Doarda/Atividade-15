@@ -4,8 +4,9 @@ public class Produto {
 
     private String codigo;
     private String nome;
-    private int quantidadeEstoque;
     private double preco;
+    private int quantidadeEstoque;
+
     private String nomeFornecedor;
     private boolean disponibilidade;
 
